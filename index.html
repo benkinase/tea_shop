@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <title>tea Cosy</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container">
+        <header class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+          <a class="navbar-brand">
+            <img
+              src="images/img-tea-cozy-logo.png"
+              alt="Logo"
+              style="width: 80px;"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Mission<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#featured">Featured Tea</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#locations">Locations</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+      </div>
+
+      <main class="main">
+        <section>
+          <div class="container">
+            <div class="jumbotron rounded-0">
+              <div class="mission text-white text-center mt-5">
+                <h2>Our Mission</h2>
+                <h4>
+                  Handpicked, Artisantly Curated, Free Range, Sustainable, Small
+                  Batch, Fair Trade, Organic Tea
+                </h4>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="tea" id="featured">
+          <div class="container text-center">
+            <h2>Tea of the Month</h2>
+            <h4 class="mb-4 mt-3">What's Steeping at The Tea Cosy?</h4>
+
+            <div class="row mb-4">
+              <div class="col-sm-4">
+                <img
+                  src="images/img-berryblitz.jpg"
+                  alt="Berry Blitz"
+                  class="img-responsive"
+                />
+                <h4 class="mt-3 mb-3">Fall Berry Blitz Tea</h4>
+              </div>
+
+              <div class="col-sm-4">
+                <img
+                  src="images/img-spiced-rum.jpg"
+                  alt="Rum Tea"
+                  class="img-responsive"
+                />
+                <h4 class="mt-3 mb-3">Spiced Rum Tea</h4>
+              </div>
+
+              <div id="item3" class="col-sm-4">
+                <img
+                  src="images/img-donut.jpg"
+                  alt="Donut"
+                  class="img-responsive"
+                />
+                <h4 class="mt-3 mb-3">Seasonal Donuts</h4>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row mb-4 justify-content-center">
+                <div id="item4" class="col-sm-4">
+                  <img
+                    src="images/img-myrtle-ave.jpg"
+                    alt="Ave Tea"
+                    class="img-responsive"
+                  />
+                  <h4 class="mt-3 mb-3">Myrtle Ave Tea</h4>
+                </div>
+
+                <div id="item5" class="col-sm-4">
+                  <img
+                    src="images/img-bedford-bizarre.jpg"
+                    alt="Bedford-Bizarre"
+                  />
+                  <h4 class="mt-3 mb-3">Bedford-Bizarre Tea</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="locations">
+          <div class="container">
+            <div class="locations">
+              <h2 class="text-center">Locations</h2>
+              <div
+                class="row text-center text-white mt-5 justify-content-around location-3"
+              >
+                <div
+                  class="col-sm-8 col-md-4 col-lg-3 location bg-dark mb-3 mr-4 ml-4"
+                >
+                  <h2>Downtown</h2>
+                  <p>384 West 4th St Suite 108 Portland, Maine</p>
+                </div>
+                <div
+                  class="col-sm-8 col-md-4 col-lg-3 location bg-danger mb-3 mr-4 ml-4"
+                >
+                  <h2>East Bayside</h2>
+                  <p>
+                    3433 Phisherman's Avenue (Northwest Corner) Portland, Maine
+                  </p>
+                </div>
+                <div
+                  class="col-sm-8 col-md-4 col-lg-3 location bg-dark mr-4 ml-4"
+                >
+                  <h2>Oakdale</h2>
+                  <p>515 Crescent Avenue Second Floor Portland, Maine</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="contact">
+        <div class="text-center mb-4">
+          <h2>The Tea Cosy</h2>
+          <h5>contact@theteacosy.com</h5>
+          <p>917-555-8904</p>
+        </div>
+        <p class="bg-dark mb-5">&copy; The Tea Cosy 2020</p>
+      </footer>
+    </div>
+
+    <!--Bootstrap-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
