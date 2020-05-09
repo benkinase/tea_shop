@@ -5,7 +5,7 @@
 }
 
 .main {
-  top: 60px;
+  top: 57.1px;
   position: relative;
 }
 
@@ -17,13 +17,17 @@
 }
 
 .mission {
-  background-color: rgba(10, 10, 10, 0.8);
-  padding: 0px 3px 40px 3px;
+  padding: 0px 0px 40px 0px;
+}
+
+.mission h4 {
+  font-size: 1.45rem;
 }
 
 img {
   width: 100%;
 }
+
 .locations {
   background: url(images/img-locations-background.jpg);
   background-repeat: no-repeat;
@@ -48,6 +52,19 @@ p {
   padding: 5px;
   color: azure;
 }
+
+.fa-chevron-up {
+  background-color: rgb(6, 34, 56);
+  padding: 5px;
+  color: aliceblue;
+}
+
+.fa-chevron-up:hover {
+  color: black;
+  background-color: dimgrey;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 780px) {
   .locations {
     height: 600px;
